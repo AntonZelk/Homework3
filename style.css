@@ -96,18 +96,18 @@ body{
 	font-size: 48px;
 	color: #ffffff;
 	text-transform: uppercase;
-	margin-top: 28vh;
+	margin-top: 265px;
 }
 .container1 .descr{
 	text-align: center;
 	color: #ffffff;
 	font-size: 20px;
-	margin-top: 4vh;
+	margin-top: 33px;
 	font-family: 'Roboto Slab', serif;
 }
 .container1 .btn{
 	text-align: center;
-	margin-top: 10vh;
+	margin-top: 50px;
 }
 .container1 .btn a{
 	text-decoration: none;
@@ -223,10 +223,54 @@ body{
 	width: 30%;
 	margin: 0 1.4%;
 	margin-bottom: 30px;
+
 }
 .container4 .galery div img{
 	max-width: 100%;
+	
 }
+.container4 .galery .img .block {
+	position: relative;
+	top: -305px;
+	display: none;
+	background-color: rgba(211, 110, 96, 0.7);
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 48px;
+	
+}
+.container4 .galery .img:hover .block {
+    display: inline-block;
+
+	
+}
+
+.container4 .galery .img .block h2{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 0px;
+	margin-top: 107px;
+}
+.container4 .galery .img .block p{
+	font-family: 'Roboto Slab, serif';
+	font-size: 12px;
+	color: #ffffff;
+	margin-top: 17px;
+}
+.container4 .center .galery .img .block .btn{
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: 28px;
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+.container4 .center .galery .img .block .btn a{
+	text-decoration: none;
+	color: #c0301c;
+	font-size: 16px;
+	
+}
+
 .container3 {
 	text-align: center;
 	background-color: #f8f8f8;
@@ -264,11 +308,11 @@ body{
 	padding-bottom: 125px;
 }
 .container3 .column1{
-	width: 550px;
-	padding-right: 5px;
+	width: 47.5%;
+	margin-right: 1%;
 }
 .container3 .column2{
-	width: 550px;
+	width: 47.5%;
 }
 .container5{
 	margin-top: 100px;
@@ -286,7 +330,7 @@ body{
 
 .container5 .center h1{
 	text-align: center;
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Roboto Slab', serif;
     font-style: normal;
 	font-weight: 400;
 	font-size: 30px;
@@ -304,7 +348,7 @@ body{
 }
 .container5 .btn a{
 	text-decoration: none;
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Roboto Slab', serif;
     font-style: normal;
 	color: #ffffff;
 	font-size: 18px;
@@ -335,7 +379,7 @@ body{
 }
 .container6 .center p{
 	text-align: center;
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-style: italic;
 	font-size: 18px;
 	color: #555555;
@@ -348,7 +392,7 @@ body{
 }
 .container6 .center h2{
 	text-align: center;
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-style: normal;
 	font-size: 20px;
 	color: #555555;
@@ -372,14 +416,58 @@ body{
 .container7 .center p{
 	text-transform: uppercase;
 	text-align: center;
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-style: normal;
 	font-size: 12px;
 	color: #f8eceb;
 	padding-bottom: 100px;
 }
+@media (max-width: 1250px){
+	.center{
+		width: 90%;
+	}
+}
 
+@media (max-width: 992px){
+	.container1 .menu{
+		display: none;
+	}
+	.container4 .galery div{
+		margin-bottom: 20px;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+}
 
+@media(max-width: 768px){
+	.container2 .cards div{
+		width: 45%;
+	}
+	.container4 .galery div{
+		width: 45%;
+	}
+}
+
+@media(max-width: 500px){
+	.container2 .cards div{
+		width: 100%;
+	}
+	.container4 .galery div{
+		width: 98%;
+	}
+}
+
+@media(max-height: 800px){
+	.container1 h1{
+		margin-top: 28vh;
+	}
+	.container1 .descr{
+		margin-top: 4vh;
+	}
+	.container1 .btn{
+		margin-top: 10vh;
+	}
+}
 
 
 	  
